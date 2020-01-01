@@ -1,0 +1,131 @@
+
+h1,h2,h3,h4,h5,h6,p {
+	font-family: 'Lato', 'Noto Sans JP', '游ゴシック Medium', '游ゴシック体', 'Yu Gothic Medium', YuGothic, 'ヒラギノ角ゴ ProN', 'Hiragino Kaku Gothic ProN', 'メイリオ', Meiryo, 'ＭＳ Ｐゴシック', 'MS PGothic', sans-serif;
+}
+
+/* 見出し１（濃い青・左端に縦棒）*/
+.header-type1 {
+	padding: 0.3em;
+  	color: black;
+  	background-color: #e6e6e6;
+  	border-left: solid 15px #093a3e;
+  	margin: 0;
+}
+
+/* 見出し2 (水色・左端に縦棒）*/
+.header-type2 {
+	padding: 0.2em;
+	color: black;
+	background-color: #e6e6e6;
+	border-left: solid 10px #3aafb9;
+	margin: 0;
+}
+
+a:hover {
+	text-decoration: none;
+}
+
+footer {
+	background-color: #39393a;
+	height: 100px;
+}
+
+nav.navbar {
+	background-color: #39393a;
+}
+
+a.nav-link {
+	color: white;
+	font-size: 1.5em;
+	border-right: solid 1px white;
+}
+
+div.navbar-nav:first-child {
+	border-left: solid 1px white;
+}
+
+hr {
+	width: 80%;
+	border: solid 1px #3aafb9;
+}
+
+p {
+	font-size: 16px;
+	line-height: 2.0em;
+}
+
+div.back {
+	background-color: #3aafb9;
+}
+.cards {
+	height: 5em;
+	color: #e6e6e6;
+	background-color: #3aafb9;
+	margin-bottom: 0;
+	border: solid 0.025em #e6e6e6;
+	padding: 0.25em;
+}
+
+.cards:hover {
+	height: 5em;
+	color: #e6e6e6;
+	background-color: #093a3e;
+	margin-bottom: 0;
+	border: solid 0.025em #e6e6e6;
+	padding: 0.25em;
+}
+div.secondback {
+	background-color: white;
+}
+
+.target {
+  position: relative;
+  padding: 0.5em;
+  background: #093a3e;
+  color: white;
+  margin-top: 1em;
+}
+
+.target::before {
+  position: absolute;
+  content: '';
+  top: 100%;
+  left: 0;
+  border: none;
+  border-bottom: solid 15px transparent;
+  border-right: solid 20px #001011;
+}
+
+h6 {
+	font-size: 14px;
+	margin-top: 0.1em;
+	text-align: center;
+}
+
+i {
+	display: inline;
+	color: #093a3e;
+}
+
+span.number {
+	display: inline-block;
+	background-color: #001011;
+	color: white;
+	padding-right: 0.3em;
+	padding-left: 0.3em;
+	margin-right: 0.5em;
+}
+
+div.textblock {
+	border-right: solid 1px #3aafb9;
+}
+
+p.explain {
+  background: #3aafb9;
+  box-shadow: 0px 0px 0px 5px #3aafb9;
+  border: dashed 2px #e6e6e6;
+  padding: 0.2em 0.5em;
+  color: white;
+  margin-top: 0.5em;
+  font-size: 16px;
+}
